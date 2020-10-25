@@ -1,9 +1,7 @@
 import numpy as np
 
-from src.base import Layer
 
-
-class SoftmaxLayer(Layer):
+class SoftmaxLayer():
     def __init__(self):
         self._z = None
 
