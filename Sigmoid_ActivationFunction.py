@@ -1,3 +1,5 @@
+import numpy as np
+
 class ActivationFunction:
     def f(self, x):
         raise NotImplementedError
